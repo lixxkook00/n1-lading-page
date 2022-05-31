@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Ropa+Sans:ital@0;1&display=swap');
+@import './variables';
+@import './animations';
+
+// clear default element
+input{
+    outline:none;
+}
+
+a{
+  display: block;
+  color: unset;
+  text-decoration: none;
+
+  &:hover{
+    text-decoration: none;
+  }
+}
+
+// custom class inline
+
+.mt-90{
+    margin-top: 90px;
+}
+
+
+// custom element
+.gradient-box {
+  
+  display: flex;
+  align-items: center;
+  margin: auto;
+
+  position: relative;
+  box-sizing: border-box;
+
+  $border: 3px;
+  color: #FFF;
+  background: $primary-dark-blue;
+  background-clip: padding-box; /* !importanté */
+  border: solid $border transparent; /* !importanté */
+  border-radius: 16px;
+
+  &:before {
+    content: '';
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    z-index: -1;
+    margin: -$border; /* !importanté */
+    border-radius: inherit; /* !importanté */
+    background: linear-gradient(to right, #D085C3, #5E80FC);
+  }
+
+  &::after {
+    content: "";
+    position: absolute;
+    height: 103%;
+    width: 103%;
+    background: linear-gradient(90deg, #D085C3, #8D8BF8, #5E80FC);
+    z-index: -1;
+    filter: blur(5px);
+    border-radius: 16px;
+    transition: all 0.5s ease-in-out;
+    animation: glowing-button 1s infinite alternate;
+  }
+}
+
+.primary-gradient-text{
+  font-weight: 900;
+  background: -webkit-linear-gradient(#1DD2FF, #5F81FC);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+

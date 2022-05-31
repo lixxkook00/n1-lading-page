@@ -1,0 +1,10 @@
+@import '../src/scss/utils';
+@import '../src/scss/variables';
+
+body{
+    background-color: $primary-dark-blue;
+    font-family: 'Ropa Sans', sans-serif;
+    box-sizing: border-box;
+    background-image: linear-gradient(180deg, #1A1C3B 10%, #3F1927 90%);
+    height: 2000px;
+}

@@ -1,0 +1,69 @@
+@import '../../scss/variables';
+@import '../../scss/animations';
+
+.header{
+    background-color: #0000325a;
+    font-size: 20px;
+    position: fixed;
+    height: 80px;
+    width: 100%;
+    top: 0;
+    left: 0;
+
+    &-wrapper{
+        height: 80px;  
+        align-items: center;
+    }
+
+    &-nav{
+        height: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        &-item{
+            width: 25%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: $white;
+            font-weight: 600;
+        }
+
+        &-item:hover{
+            cursor: pointer;
+            color: #fff;
+            -webkit-animation: glow 1s ease-in-out infinite alternate;
+            -moz-animation: glow 1s ease-in-out infinite alternate;
+            animation: glow 1s ease-in-out infinite alternate;
+        }
+    }
+
+    &-logo{
+        height: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        img{
+            height: 80%;
+            width: auto;
+        }
+    }
+
+    &-wallet{
+        height: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: 700;
+        transition: all .5s ease-in-out;
+
+        &:hover{
+            cursor: pointer;
+            background: transparent;
+            color: $primary-dark-blue;
+        }
+    }
+}
