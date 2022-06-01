@@ -1,6 +1,82 @@
 @import '../../scss/variables';
+@import '../../scss/animations';
 
 .intro{
-    margin-top: 80px;
+    // margin-top: 80px;
+    padding: 80px 0 40px;
     color: $white;
+    height: 100vh;
+    width: 100vw;
+
+    .container,
+    .row,
+    .col-xl-12{
+        height: 100%;
+    }
+
+    &-content{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        &-title{
+            font-size: 60px;
+            font-weight: 800;
+            font-family: system-ui;
+            margin-bottom: 35px;
+        }
+
+        &-button{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 700;
+            font-size: 20px;
+            padding: 10px 40px;
+            border-radius: 16px;
+            background-image: linear-gradient(90deg, #1DD2FF 10%, #CA6AFF 90%);
+            transition: all .5s ease-in-out;
+
+            &:hover{
+                cursor: pointer;
+                opacity: .8;
+
+                i{
+                    transform: translateX(8px) scale(1.4);
+                }
+            }
+
+            i{
+                margin-left: 10px;
+                transition: all .5s ease-in-out;
+            }
+        }
+    }
+
+    &-logo{
+        height: 50%;
+        position: absolute;
+        top: calc(50% - 150px);
+        left: calc(50% - 150px);
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+        // box-shadow:
+        //     inset 0 0 25px rgba(255, 255, 255, 0.37),
+        //     inset 10px 0 40px rgba(255, 0, 255, 0.289),
+        //     inset -10px 0 40px rgba(0, 255, 255, 0.475),
+        //     inset 10px 0 150px rgba(255, 0, 255, 0.289),
+        //     inset -10px 0 150px rgba(0, 255, 255, 0.422),
+        //     0 0 25px rgba(255, 255, 255, 0.369),
+        //     -5px 0 40px rgba(255, 0, 255, 0.289),
+        //     5px 0 40px rgba(0, 255, 255, 0.393);
+
+        img{
+            transition: all .5s ease-in-out;
+            animation: logo-breathing 2s infinite alternate;
+        }
+    }
+
 }

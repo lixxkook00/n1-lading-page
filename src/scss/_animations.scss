@@ -20,3 +20,73 @@
     text-shadow: 0 0 1px #fff, 0 0 3px #5E80FC, 0 0 4px #5E80FC, 0 0 5px #5E80FC, 0 0 6px #5E80FC, 0 0 7px #5E80FC, 0 0 8px #5E80FC;
   }
 }
+
+@keyframes logo-breathing {
+  0% { 
+    filter: drop-shadow(0px 0px 10px rgba(255, 255, 255, 0.443));
+  }
+  
+  100% { 
+    filter: drop-shadow(0px 0px 0px rgba(255, 255, 255, 0.38));
+  }
+}
+
+
+@keyframes planet-fly{
+  0% { 
+    transform: scale(.1) translateY(0);
+  }
+  
+  100% { 
+    transform: scale(.1) translateY(-50px);
+  }
+}
+
+@keyframes ball-breathing{
+    0% {
+        box-shadow:
+            0 0 1px 1px #fff,
+            0 0 3px 3px #52A5FE,
+            0 0 4px 2px #52A5FE;
+    }
+
+    100%{
+        box-shadow:
+            0 0 2px 2px #fff,
+            0 0 5px 3px #52A5FE,
+            0 0 6px 4px #52A5FE;
+    }
+}
+
+@keyframes glow-lava {
+  0% { 
+    filter: drop-shadow(0 0 12px #f9fcfd);
+  }
+  
+  100% { 
+    filter: drop-shadow(0 0 40px #fff);
+  }
+}
+
+@keyframes glow-lava-hole {
+  // 0% { 
+  //   filter: drop-shadow(0px 0px 100px #ffffff);
+  // }
+  
+  // 100% { 
+  //   filter: drop-shadow(0px 0px 0px #ffffff);
+  // }
+  0% {
+        box-shadow:
+            0 0 5px 5px #52A5FE,
+            0 0 5px 5px #52a5fe64,
+            0 0 4px 2px #52a5fe64;
+    }
+
+    100%{
+        box-shadow:
+            0 0 2px 2px #52A5FE,
+            0 0 10px 10px #52a5fe4a,
+            0 0 30px 30px #52A5FE;
+    }
+}

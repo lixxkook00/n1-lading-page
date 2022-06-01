@@ -23,6 +23,22 @@ a{
     margin-top: 90px;
 }
 
+.img-height{
+  height: 100%;
+  width: auto;
+}
+
+.img-width{
+  width: 100%;
+  height: auto;
+}
+
+.centering{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 
 // custom element
 .gradient-box {
@@ -67,8 +83,113 @@ a{
 
 .primary-gradient-text{
   font-weight: 900;
-  background: -webkit-linear-gradient(#1DD2FF, #5F81FC);
+  background-image: linear-gradient(90deg, #1DD2FF 10%, #CA6AFF 90%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
+$jumpdots-loader-size: 100vmin;
+$jumpdots-loader-time: 3s;
+
+.gooey-filter {
+  display: none;
+}
+
+.lava-loader {
+  filter: url(#gooey);
+  width: $jumpdots-loader-size;
+  height: $jumpdots-loader-size;
+  position: relative;
+}
+
+.dot {
+  background: #224BCE;
+  border-radius: 50%;
+  width: $jumpdots-loader-size * .15;
+  height: $jumpdots-loader-size * .15;
+  position: absolute;
+  bottom: $jumpdots-loader-size * .1;
+  left: $jumpdots-loader-size * .35;
+  transition: all 0.5s ease-in-out;
+  filter: blur($jumpdots-loader-size * .02);
+}
+
+.dot:first-child {
+  animation: main-dot $jumpdots-loader-time infinite alternate;
+}
+
+@keyframes main-dot {
+  0% {
+    opacity: 0;
+    transform: translatey(0) scale(1.5);
+  }
+  10% {
+    opacity: 0.1;
+    transform: translatey($jumpdots-loader-size * .1) scale(1.5);
+  }
+  40% {
+    opacity: 0.4;
+    transform: translatey($jumpdots-loader-size * -.1) scale(1.2);
+  }
+  60% {
+    opacity: 0.6;
+    transform: translatey(0) scale(1);
+  }
+  100% {
+    opacity: 1;
+    transform: translatey(0) scale(1.5);
+  }
+}
+
+.dot:nth-child(2) {
+  animation: top-dot $jumpdots-loader-time infinite;
+}
+
+@keyframes top-dot {
+  0%, 10% {
+    opacity: 1;
+    transform: translatey(0);
+  }
+  20% {
+    transform: translatey($jumpdots-loader-size * -.7);
+  }
+  100% {
+    opacity: 0;
+    transform: translatey(0) scale(1);
+  }
+}
+
+.dot:nth-child(3) {
+  animation: second-dot $jumpdots-loader-time infinite;
+}
+
+@keyframes second-dot {
+  0%, 10% {
+    transform: translatey(0);
+  }
+  30% {
+    transform: translatey($jumpdots-loader-size * -.5);
+  }
+  60% {
+    transform: translatey(0) scale(1);;
+  }
+  100% {
+    transform: translatey(0) scale(1.5);
+  }
+}
+
+.dot:nth-child(4) {
+  animation: third-dot $jumpdots-loader-time infinite;
+}
+
+@keyframes third-dot {
+  0%, 10% {
+    transform: translatey(0);
+  }
+  30% {
+    transform: translatey($jumpdots-loader-size * -.3);
+  }
+  100% {
+    transform: translatey(0);
+  }
+}

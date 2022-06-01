@@ -8,16 +8,23 @@ export default function Intro() {
             <div className="row">
                 <div className="col-xl-6">
                     <div className="intro-content">
-                        <div className="intro-content-title">
+                        <div className="intro-content-title primary-gradient-text">
                             TIGER CYBER
+                        </div>
+                        <div className="intro-content-button">
+                            Go to Bainance NFT <i className="fa-solid fa-arrow-right"></i>
                         </div>
                     </div>
                 </div>
-                <div className="col-xl-6">
-
+                <div className="col-xl-6 centering">
+                    <div className="intro-logo centering">
+                        <img className="img-height" src="./images/LOGO HEADER.png" alt="" />
+                    </div>
                 </div>
             </div>
         </div>
+        
+
     </div>
   )
 }

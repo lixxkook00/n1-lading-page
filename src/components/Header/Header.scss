@@ -2,13 +2,14 @@
 @import '../../scss/animations';
 
 .header{
-    background-color: #0000325a;
+    background-color: #000032b9;
     font-size: 20px;
     position: fixed;
     height: 80px;
     width: 100%;
     top: 0;
     left: 0;
+    z-index: 10;
 
     &-wrapper{
         height: 80px;  
