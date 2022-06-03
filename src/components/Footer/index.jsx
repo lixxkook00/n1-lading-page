@@ -13,7 +13,7 @@ export default function Footer() {
                 </div>
                 <div className="col-xl-7 col-12 centering">
                     <div className="row">
-                        <div className="col-xl-6">
+                        <div className="col-xl-12 col-12">
                             <div className="footer-coming centering">
                                 <div className="footer-logo">
                                     <img className="img-width" src="./images/LOGO FOOTER.png" alt="" />
