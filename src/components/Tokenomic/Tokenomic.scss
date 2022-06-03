@@ -31,7 +31,7 @@
 
         &-num{
             font-size: 55px;
-            font-weight: 400;
+            font-weight: 500;
 
             &.dev{
                 color: #07BAF3;
@@ -60,8 +60,9 @@
         }
 
         &-name{
-            min-height: 50px;
+            min-height: 60px;
             font-size: 14px;
+            font-weight: 500;
         }
     }
 }

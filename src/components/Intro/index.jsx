@@ -12,7 +12,7 @@ export default function Intro() {
                             TIGER CYBER
                         </div>
                         <div className="intro-content-button">
-                            Go to Bainance NFT <i className="fa-solid fa-arrow-right"></i>
+                            Go to Binance NFT <i className="fa-solid fa-arrow-right"></i>
                         </div>
                     </div>
                 </div>

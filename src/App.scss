@@ -2,9 +2,46 @@
 @import '../src/scss/variables';
 @import '../src/scss/responsive';
 
+@font-face {
+   font-family: 'DIN 2014';
+   src: url("./fonts/DIN2014/DIN2014-DemiBold.ttf") format("truetype");
+   font-weight: 500;
+}
+
+@font-face {
+   font-family: 'DIN 2014';
+   src: url("./fonts/DIN2014/DIN2014-Bold.ttf") format("truetype");
+   font-weight: 400;
+}
+
+@font-face {
+   font-family: 'DIN 2014';
+   src: url("./fonts/DIN2014/DIN2014-ExtraBold.ttf") format("truetype");
+   font-weight: 700;
+}
+
+
+@font-face {
+   font-family: 'DIN 2014';
+   src: url("./fonts/DIN2014/DIN2014-Regular.ttf") format("truetype");
+   font-weight: 400;
+}
+
+@font-face {
+   font-family: 'DIN 2014';
+   src: url("./fonts/DIN2014/DIN2014-Light.ttf") format("truetype");
+   font-weight: 300;
+}
+
+@font-face {
+   font-family: 'DIN 2014';
+   src: url("./fonts/DIN2014/DIN2014-ExtraLight.ttf") format("truetype");
+   font-weight: 200;
+}
+
 body{
     background-color: $primary-dark-blue;
-    font-family: 'Ropa Sans', sans-serif;
+    font-family: 'DIN 2014', sans-serif;
     box-sizing: border-box;
     background-image: $primary-dark-blue;
     // height: 2000px;

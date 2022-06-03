@@ -86,6 +86,18 @@ export default function Roadmap() {
         </div>
         <div className="roadmap-end">
             <img className="img-width" src="./images/ROADMAP.png" alt="" />
+
+            <img src="./images/road-map-1.png" alt="" className="roadmap-end-child roadmap-end-child--1 img-width circle" />
+
+            <img src="./images/road-map-2.png" alt="" className="roadmap-end-child roadmap-end-child--2 img-width rectangle" />
+        
+            <img src="./images/road-map-1.png" alt="" className="roadmap-end-child roadmap-end-child--3 img-width circle" />
+
+            <img src="./images/road-map-2.png" alt="" className="roadmap-end-child roadmap-end-child--4 img-width rectangle" />
+
+            <img src="./images/road-map-1.png" alt="" className="roadmap-end-child roadmap-end-child--5 img-width circle" />
+
+            <img src="./images/road-map-2.png" alt="" className="roadmap-end-child roadmap-end-child--6 img-width rectangle" />
         </div>
     </div>
   )

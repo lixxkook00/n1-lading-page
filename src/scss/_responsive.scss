@@ -63,10 +63,16 @@
 
         .paragraph{
             padding: 0 10px;
+            font-size: 20px;
         }
 
         .free-chartjs{
             width: 80px !important;
+        }
+
+        .slider-control-item{
+            height: 30px;
+            width: 30px;
         }
 
         .intro{
@@ -116,6 +122,10 @@
             .story-left .rock--1{
                 left: 4%;
             }
+
+            .card-robot-content-wrapper{
+                transform: translateY(21%);
+            }
         }
 
         .story-bonus{
@@ -163,10 +173,23 @@
         }
         .footer{
 
+            .container {
+                align-items: flex-start;
+            }
+
             .footer-img{
                 padding: 0 60px;
+                height: 300px;
                 transition: all 0.5s ease-in-out;
                 transform: translateY(40px);
+            }
+
+            .footer-img .wing-left{
+                left: 17%;
+            }
+
+            .footer-img .wing-right{
+                right: 19%;
             }
 
             .footer-coming{

@@ -1,12 +1,59 @@
 .footer{
-    height: 100vh;
+    height: 90vh;
     width: 100vw;
     background-image: url(../../../public/images/FOOTER.png);
     background-repeat: no-repeat;
     background-position: bottom center;
     background-size: contain;
-    padding-top: 10%;
     position: relative;
+    display: flex;
+
+    .container{
+        flex: 1;
+        display: flex;
+        align-items: center;
+    }
+
+    &-img{
+        position: relative;
+        height: 500px;
+        display: flex;
+        justify-content: center;
+        animation: robot-fly 2s infinite alternate;
+
+        .body{
+            z-index: 2;
+        }
+
+        .wing{
+            height: 50% !important;
+            position: absolute;
+            transition: all 0.5s ease-in-out;
+
+            &-left{
+                top: 10%;
+                left: 5.5%;
+                animation: robot-left-wing-fly 2s infinite alternate;
+            }
+
+            &-right{
+                top: 10.9%;
+                right: 8%;
+                transform: rotate(-3.3deg);
+                animation: robot-right-wing-fly 2s infinite alternate;
+            }
+        }
+
+        .knife{
+            position: absolute;
+            height: 67.6% !important;
+            top: 36.4%;
+            right: 46.3%;
+
+            transition: all 0.5s ease-in-out;
+            animation: knife-glow 1s infinite alternate;
+        }
+    }
 
     &-coming{
         display: flex;
@@ -21,6 +68,7 @@
     &-text{
         font-size: 60px;
         color: #fff;
+        font-weight: 600;    
     }
 
     &-infor{
@@ -63,6 +111,15 @@
 
         &-text{
             color: #fff;
+        }
+    }
+
+    .download{
+        transition: all 0.5s ease-in-out;
+
+        &:hover{
+            cursor: pointer;
+            transform: scale(.9)
         }
     }
 }

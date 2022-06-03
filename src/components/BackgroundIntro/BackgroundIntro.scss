@@ -29,61 +29,10 @@
         }
     }
 
-    & .lamp{
-
-        &::after{
-            content: "";
-            position: absolute;
-            bottom: 20%;
-            left: 50%;
-            transform: translateX(-50%);
-            animation: ball-breathing 1s infinite alternate;
-            height: 1px;
-            width: 1px;
-            background-color: rgb(245, 242, 207);
-            border-radius: 50%;
-        }
-
-        &--1{
-            top: 27%;
-            left: 8%;
-        }
-
-        &--2{
-            top: 29.5%;
-            left: 48.5%;
-            animation-delay: 1s;
-        }
-
-        &--3{
-            top: 60.1%;
-            left: 77.8%;
-            animation-delay: .5s;
-        }
-        
-        &--4{
-            top: 17%;
-            left: 35%;
-            animation-delay: .2s;
-        }
-        
-        &--5{
-            top: 80.9%;
-            left: 24.1%;
-            animation-delay: .2s;
-            
-        }
-
-        img{
-            width: 100%;
-            height:auto;
-        }
-    }
-
     .lava{
         position: absolute;
-        left: -22%;
-        bottom: -14%;
+        left: 1.5%;
+        bottom: -15.9%;
         z-index: 10;
         transition: all .5s ease-in-out;
         transform: scale(.1);
@@ -97,26 +46,26 @@
         bottom: 16.3%;
         background-color: #10c2f3a1;
         z-index: 10;
-        height: .1%;
-        width: .1%;
+        height: .001%;
+        width: .001%;
         border-radius:50%;
         transition: all .5s ease-in-out;
         animation: glow-lava-hole 2s infinite alternate;
 
         &--1{
-            left: 14%;
-            bottom: 16.3%;
+            left: 82.2%;
+            bottom: 23.3%;
         }
 
         &--2{
-            left: 22.8%;
-            bottom: 11.5%;
+            left: 32.1%;
+            bottom: 11.1%;
             animation-delay: 0.7s;
         }
 
         &--3{
-            left: 50.8%;
-            bottom: 11.5%;
+            left: 51.7%;
+            bottom: 9.8%;
             animation-delay: 0.3s;
         }
     }

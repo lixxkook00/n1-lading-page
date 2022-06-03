@@ -279,3 +279,53 @@ $jumpdots-loader-time: 3s;
     transform: rotate(45 + 360deg);
   }
 }
+
+@keyframes roadmap-child {
+  0% { 
+    filter: drop-shadow(0 0 8px #fff);
+  }
+  
+  100% { 
+    filter: drop-shadow(0 0 60px #1A69B5);
+  }
+}
+
+@keyframes knife-glow {
+  0% { 
+    filter: drop-shadow(0 0 2px #E9C124);
+  }
+  
+  100% { 
+    filter: drop-shadow(0 0 30px #E9C124);
+  }
+}
+
+@keyframes robot-fly{
+  0% { 
+    transform: translateY(0);
+  }
+  
+  100% { 
+    transform: translateY(-30px);
+  }
+}
+
+@keyframes robot-left-wing-fly{
+  0% { 
+    transform: translateY(0) rotate(-3.3deg);
+  }
+  
+  100% { 
+    transform: translateY(-7px);
+  }
+}
+
+@keyframes robot-right-wing-fly{
+  0% { 
+    transform: translateY(0) rotate(-3.3deg);
+  }
+  
+  100% { 
+    transform: translateY(-3px) rotate(-3.3deg);
+  }
+}

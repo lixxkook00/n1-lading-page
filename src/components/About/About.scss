@@ -2,6 +2,7 @@
 
 .about{
     color: #fff;
+    padding-top: 20px;
     padding-bottom: 50px;
 
     &-title{
@@ -29,7 +30,11 @@
 
         .swiper-slide-next{
             transition: all 0.5s ease-in-out;
-            transform: scale(1);
+            transform: scale(.98);
+
+            .about-card-bg img{
+                filter: drop-shadow(0 0px 20px #cf85c386);
+            }
         }
 
         .swiper-slide {
@@ -117,7 +122,6 @@
             }
             
             &-name{
-                font-family: system-ui;
                 font-size: 26px;
                 font-weight: 700;
                 text-align: left;
