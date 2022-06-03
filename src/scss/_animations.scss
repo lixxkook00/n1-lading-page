@@ -1,3 +1,5 @@
+$jumpdots-loader-size: 100vmin;
+$jumpdots-loader-time: 3s;
 
 @keyframes glowing-button {
   0% { 
@@ -69,24 +71,211 @@
 }
 
 @keyframes glow-lava-hole {
-  // 0% { 
-  //   filter: drop-shadow(0px 0px 100px #ffffff);
-  // }
-  
-  // 100% { 
-  //   filter: drop-shadow(0px 0px 0px #ffffff);
-  // }
   0% {
         box-shadow:
-            0 0 5px 5px #52A5FE,
-            0 0 5px 5px #52a5fe64,
-            0 0 4px 2px #52a5fe64;
+            0 0 5px 5px #15BCEE,
+            0 0 5px 5px #15BCEE,
+            0 0 4px 2px #15BCEE;
     }
 
     100%{
         box-shadow:
-            0 0 2px 2px #52A5FE,
-            0 0 10px 10px #52a5fe4a,
-            0 0 30px 30px #52A5FE;
+            0 0 2px 2px #15BCEE,
+            0 0 10px 10px #15BCEE,
+            0 0 30px 30px #15BCEE;
     }
+}
+
+@keyframes main-dot {
+  0% {
+    opacity: 0;
+    transform: translatey(0) scale(1.5);
+  }
+  10% {
+    opacity: 0.1;
+    transform: translatey($jumpdots-loader-size * .1) scale(1.5);
+  }
+  40% {
+    opacity: 0.4;
+    transform: translatey($jumpdots-loader-size * -.1) scale(1.2);
+  }
+  60% {
+    opacity: 0.6;
+    transform: translatey(0) scale(1);
+  }
+  100% {
+    opacity: 1;
+    transform: translatey(0) scale(1.5);
+  }
+}
+
+.dot:nth-child(2) {
+  animation: top-dot $jumpdots-loader-time infinite;
+}
+
+@keyframes top-dot {
+  0%, 10% {
+    opacity: 1;
+    transform: translatey(0);
+  }
+  20% {
+    transform: translatey($jumpdots-loader-size * -.7);
+  }
+  100% {
+    opacity: 0;
+    transform: translatey(0) scale(1);
+  }
+}
+
+.dot:nth-child(3) {
+  animation: second-dot $jumpdots-loader-time infinite;
+}
+
+@keyframes second-dot {
+  0%, 10% {
+    transform: translatey(0);
+  }
+  30% {
+    transform: translatey($jumpdots-loader-size * -.5);
+  }
+  60% {
+    transform: translatey(0) scale(1);;
+  }
+  100% {
+    transform: translatey(0) scale(1.5);
+  }
+}
+
+.dot:nth-child(4) {
+  animation: third-dot $jumpdots-loader-time infinite;
+}
+
+@keyframes third-dot {
+  0%, 10% {
+    transform: translatey(0);
+  }
+  30% {
+    transform: translatey($jumpdots-loader-size * -.3);
+  }
+  100% {
+    transform: translatey(0);
+  }
+}
+
+@keyframes planet-light-1 {
+  0% { 
+    filter: drop-shadow(0 0 12px #E9C124);
+  }
+  
+  100% { 
+    filter: drop-shadow(0 0 20px #E9C124);
+  }
+}
+
+@keyframes planet-light-2 {
+  0% { 
+    filter: drop-shadow(0 0 12px #1A69B5);
+  }
+  
+  100% { 
+    filter: drop-shadow(0 0 40px #1A69B5);
+  }
+}
+
+@keyframes planet-light-3 {
+  0% { 
+    filter: drop-shadow(0 0 12px #7600C7);
+  }
+  
+  100% { 
+    filter: drop-shadow(0 0 40px #7600C7);
+  }
+}
+
+@keyframes planet-light-4 {
+  0% { 
+    filter: drop-shadow(0 0 12px #5300AB);
+  }
+  
+  100% { 
+    filter: drop-shadow(0 0 40px #5300AB);
+  }
+}
+
+@keyframes planet-rotate {
+  0% { 
+    transform: rotate(0deg);
+  }
+  
+  100% { 
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes planet-rock {
+  0% { 
+    filter: drop-shadow(0 0 6px #A47076);
+  }
+  
+  100% { 
+    filter: drop-shadow(0 0 10px #A47076);
+  }
+}
+
+@keyframes rock-fly{
+  0% { 
+    transform: translate(0,0);
+  }
+  
+  100% { 
+    transform: translate(-5px,-20px);
+  }
+}
+
+@keyframes tail {
+    0% {
+    width: 0;
+    }
+
+    30% {
+    width: 100px;
+    }
+
+    100% {
+    width: 0;
+    }
+}
+
+@keyframes shining {
+  0% {
+    width: 0;
+  }
+  
+  50% {
+    width: 30px;
+  }
+  
+  100% {
+    width: 0;
+  }
+}
+
+@keyframes shooting {
+  0% {
+    transform: translateX(0);
+  }
+  
+  100% {
+    transform: translateX(300px);
+  }
+}
+
+@keyframes sky {
+  0% {
+    transform: rotate(45deg);
+  }
+  
+  100% {
+    transform: rotate(45 + 360deg);
+  }
 }

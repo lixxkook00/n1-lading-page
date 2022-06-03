@@ -1,0 +1,68 @@
+.footer{
+    height: 100vh;
+    width: 100vw;
+    background-image: url(../../../public/images/FOOTER.png);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: contain;
+    padding-top: 10%;
+    position: relative;
+
+    &-coming{
+        display: flex;
+        align-items: end;
+        margin-bottom: 40px;
+    }
+
+    &-logo{
+        width: 40%;
+    }
+
+    &-text{
+        font-size: 60px;
+        color: #fff;
+    }
+
+    &-infor{
+        position: absolute;
+        bottom: 30px;
+        left: 0;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        &-social{
+            display: flex;
+            margin-bottom: 20px;
+        }
+
+        &-social-icon{
+            margin-right: 12px;
+            height: 35px;
+            width: 35px;
+            border-radius: 50%;
+            background-image: linear-gradient(45deg, #8469FF 10%, #599DFE 90%);
+            transition: all 0.5s ease-in-out;
+
+            a{
+                height: 20px;
+            }
+
+            i{
+                transition: all 0.5s ease-in-out;
+                font-size: 20px;
+            }
+
+            &:hover{
+                cursor: pointer;
+                background-image: linear-gradient(45deg, #599DFE 10%, #8469FF 90%);
+                transform: scale(1.2) rotate(360deg)
+            }
+        }
+
+        &-text{
+            color: #fff;
+        }
+    }
+}

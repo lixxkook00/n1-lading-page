@@ -1,0 +1,57 @@
+.story-bonus{
+    background-image: url(../../../public/images/story-bonus-left.png);
+    background-position: center left;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-bottom: 100px;
+
+    &-slider{
+        height: 550px;
+    }
+
+    .card-robot{
+        position: relative;
+        
+        &-bg{
+            position: relative;
+
+            img{
+                width: 78% !important;
+            }
+
+            .standing{
+                position: absolute;
+                bottom: -15%;
+                left: 50%;
+                transform: translate(-50%,-50%);
+            }
+        }
+
+        &-content{
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+
+            .swiper-slide{
+                img{
+                    transition: all 0.5s ease-in-out;
+                    transform: scale(.8);
+                }
+            }
+
+            .swiper-slide-active{
+                img{
+                    transition: all 0.5s ease-in-out;
+                    transform: scale(1);
+                }
+            }
+
+            &-content-wrapper{
+                height: 376px;
+                height: 515px;
+            }
+        }
+    }
+}

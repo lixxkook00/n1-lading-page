@@ -7,7 +7,8 @@ export default function BackgroundIntro() {
     <div className="background-intro">
         <div className="background-intro-image">
             <div className="background-intro-image-wrap">
-                <img src="./images/HEADER.png" alt="" />
+                <img src="./images/H1.png" alt="" />
+                {/* <img src="./images/Frame 4.png" alt="" /> */}
 
                 {/* start */}
                  <div className="lamp lamp--5">

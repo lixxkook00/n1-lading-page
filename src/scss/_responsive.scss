@@ -49,6 +49,135 @@
     .hidden-m {
         display: none !important;
     }
+
+    .App{
+
+        .primary-title{
+            font-size: 45px;
+            text-align: center;
+        }
+
+        .centering-left{
+            justify-content: center;
+        }
+
+        .paragraph{
+            padding: 0 10px;
+        }
+
+        .free-chartjs{
+            width: 80px !important;
+        }
+
+        .intro{
+            margin-top: 70px;
+
+            .container .row{
+                flex-direction: column-reverse;
+                height: unset;
+
+                .col-xl-6.centering{
+                    height: 300px;
+                    margin-bottom: 30px;
+                }
+            }
+
+            .intro-content-title{
+                font-size: 45px;
+            }
+            
+            .intro-content{
+                height: unset;
+            }
+        }
+        
+        .about{
+            .about-title{
+                margin-bottom: 10px;
+            }
+
+            .about-card-content-decs{
+                font-size: 15px;
+            }
+        }
+
+        .story{
+
+            padding-bottom: 40px;
+
+            .story-left{
+                margin-bottom: 70px;
+            }
+
+            .story-planet{
+                margin: auto;
+            }
+
+            .story-left .rock--1{
+                left: 4%;
+            }
+        }
+
+        .story-bonus{
+            .container .row{
+                flex-direction: column-reverse;
+            }
+        }
+
+        .tokenomic{
+            padding-bottom: 40px;
+
+            .tokenomic-percent-num{
+                font-size: 35px;
+            }
+
+            .tokenomic-percent-name{
+                min-height: 84px;
+            }
+        }
+
+        .roadmap{
+            height: unset;
+            padding-bottom: 50px;
+
+            .roadmap-end{
+                display: none;
+            }
+
+            .roadmap-content{
+                height: unset;
+            }
+
+            .roadmap-section{
+                padding: 0 40px;
+                padding-bottom: 30px;
+            }
+        }
+
+        .team{
+            padding-bottom: 50px;
+        }
+
+        .partner-logo{
+            min-height: 110px;
+        }
+        .footer{
+
+            .footer-img{
+                padding: 0 50px;
+            }
+
+            .footer-coming{
+                align-items: center;
+            }
+
+            .footer-text{
+                font-size: 35px;
+                margin-left: 10px;
+            }
+        }
+
+    }
 }
 
 /* 500*/
@@ -71,3 +200,4 @@
         width: 100% !important;
     }
 }
+

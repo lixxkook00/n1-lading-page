@@ -1,0 +1,25 @@
+.team{
+    padding: 100px 0 150px;
+
+    &-card{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+        border-radius: 22px;
+        transition: all 0.5s ease-in-out;
+
+        &-name{
+            margin-top: 12px;
+            font-size: 24px;
+        }
+
+        &-job{
+            font-size: 20px;
+        }
+
+        &-desc{
+            text-align: justify;
+        }
+    }
+}
