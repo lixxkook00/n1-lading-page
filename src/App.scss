@@ -39,6 +39,11 @@
    font-weight: 200;
 }
 
+.App.loading{
+   height: 100vh;
+   overflow: hidden;
+}
+
 body{
     background-color: $primary-dark-blue;
     font-family: 'DIN 2014', sans-serif;
