@@ -70,7 +70,7 @@
         }
 
         .intro{
-            margin-top: 70px;
+            margin-top: 20px;
 
             .container .row{
                 flex-direction: column-reverse;
@@ -164,11 +164,27 @@
         .footer{
 
             .footer-img{
-                padding: 0 50px;
+                padding: 0 60px;
+                transition: all 0.5s ease-in-out;
+                transform: translateY(40px);
             }
 
             .footer-coming{
                 align-items: center;
+                margin-bottom: 20px;
+                height: 100px;
+
+                .footer-logo{
+                    height: 100%;
+                    width: 30%;
+                    display: flex;
+                    justify-content: center;
+                }
+
+                img{
+                    height: 100% !important;
+                    width: auto !important;
+                }
             }
 
             .footer-text{
