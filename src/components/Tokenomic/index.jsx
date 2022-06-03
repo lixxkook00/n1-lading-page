@@ -33,7 +33,7 @@ export default function Tokenomic() {
                             <div className="col-xl-3 col-3">
                                 <div className="tokenomic-percent">
                                     <div className="tokenomic-percent-num dev">
-                                        <CountUp end={15} redraw={true}>
+                                        <CountUp duration={1} end={15} redraw={false}>
                                             {({ countUpRef, start }) => (
                                                 <VisibilitySensor onChange={start} delayedCall>
                                                     <span ref={countUpRef} />
@@ -50,7 +50,7 @@ export default function Tokenomic() {
                             <div className="col-xl-3 col-3">
                                 <div className="tokenomic-percent">
                                     <div className="tokenomic-percent-num adv">
-                                        <CountUp end={5} redraw={true}>
+                                        <CountUp duration={1} end={5} redraw={false}>
                                             {({ countUpRef, start }) => (
                                                 <VisibilitySensor onChange={start} delayedCall>
                                                     <span ref={countUpRef} />
@@ -67,7 +67,7 @@ export default function Tokenomic() {
                             <div className="col-xl-3 col-3">
                                 <div className="tokenomic-percent">
                                     <div className="tokenomic-percent-num mar">
-                                        <CountUp end={5} redraw={true}>
+                                        <CountUp duration={1} end={5} redraw={false}>
                                             {({ countUpRef, start }) => (
                                                 <VisibilitySensor onChange={start} delayedCall>
                                                     <span ref={countUpRef} />
@@ -84,7 +84,7 @@ export default function Tokenomic() {
                             <div className="col-xl-3 col-3">
                                 <div className="tokenomic-percent">
                                     <div className="tokenomic-percent-num liqui">
-                                        <CountUp end={10} redraw={true}>
+                                        <CountUp duration={1} end={10} redraw={false}>
                                             {({ countUpRef, start }) => (
                                                 <VisibilitySensor onChange={start} delayedCall>
                                                     <span ref={countUpRef} />
@@ -101,7 +101,7 @@ export default function Tokenomic() {
                             <div className="col-xl-3 col-3">
                                 <div className="tokenomic-percent">
                                     <div className="tokenomic-percent-num hybri">
-                                        <CountUp end={10} redraw={true}>
+                                        <CountUp duration={1} end={10} redraw={false}>
                                             {({ countUpRef, start }) => (
                                                 <VisibilitySensor onChange={start} delayedCall>
                                                     <span ref={countUpRef} />
@@ -118,7 +118,7 @@ export default function Tokenomic() {
                             <div className="col-xl-3 col-3">
                                 <div className="tokenomic-percent">
                                     <div className="tokenomic-percent-num reward">
-                                        <CountUp end={35} start={25} redraw={true}>
+                                        <CountUp duration={1} end={35} start={25} redraw={false}>
                                             {({ countUpRef, start }) => (
                                                 <VisibilitySensor onChange={start} delayedCall>
                                                     <span ref={countUpRef} />
@@ -135,7 +135,7 @@ export default function Tokenomic() {
                             <div className="col-xl-3 col-3">
                                 <div className="tokenomic-percent">
                                     <div className="tokenomic-percent-num network">
-                                        <CountUp end={10} redraw={true}>
+                                        <CountUp duration={1} end={10} redraw={false}>
                                             {({ countUpRef, start }) => (
                                                 <VisibilitySensor onChange={start} delayedCall>
                                                     <span ref={countUpRef} />
@@ -152,7 +152,7 @@ export default function Tokenomic() {
                             <div className="col-xl-3 col-3">
                                 <div className="tokenomic-percent">
                                     <div className="tokenomic-percent-num burn">
-                                        <CountUp end={10} redraw={true}>
+                                        <CountUp duration={1} end={10} redraw={false}>
                                             {({ countUpRef, start }) => (
                                                 <VisibilitySensor onChange={start} delayedCall>
                                                     <span ref={countUpRef} />

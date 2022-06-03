@@ -38,17 +38,24 @@ export default function StoryBonus() {
                             <div className="card-robot-bg centering">
                                 <img className="img-width" src="./images/Artboard 9 1.png" alt="" />
                                 <img src="./images/Group 311.png" alt="" className="standing" />
+                                <div className="standing-glow">
+                                    <div></div>
+                                </div>
                             </div>
                         </div>
                         <div className="card-robot-content">
                             <div className="card-robot-content-wrapper centering">
                                 <div className="slider-control">
+
                                     <div className="slider-control-item centering" onClick={() => {swiperStoryBonus.current.swiper.slidePrev()}}>
                                         <i className="fa-solid fa-angle-left"></i>
                                     </div>
+
                                     <div className="slider-control-item centering" onClick={() => {swiperStoryBonus.current.swiper.slideNext()}}>
                                         <i className="fa-solid fa-angle-right"></i>
                                     </div>
+
+                                    
                                 </div>
                                 <Swiper
                                     modules={[Pagination, Navigation,Autoplay]}

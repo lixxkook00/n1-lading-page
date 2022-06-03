@@ -101,6 +101,7 @@ export default function LandingPage() {
 
   return (
     <div>
+        {/* Modal Nav Mobile Menu*/}
 
         <div className="header-mobile-wrap hide-on-pc">
             <div className="container">
@@ -120,7 +121,6 @@ export default function LandingPage() {
             </div>
         </div>
 
-        {/* Modal Nav Mobile Menu*/}
         <Drawer
             anchor={'left'}
             open={stateNav['left']}
@@ -140,6 +140,7 @@ export default function LandingPage() {
         <Team />
         <Partners />
         <Footer />
+
     </div>
   )
 }

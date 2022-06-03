@@ -3,6 +3,11 @@
     .mt-90{
         margin-top: 40px !important;
     }
+
+    .about-card-content-decs{
+        font-size: 15px !important;
+        line-height: 18px !important; 
+    }
 }
 
 
@@ -17,8 +22,17 @@
 /* Tablet to PC low resolution */
 
 @media (min-width: 985px) and (max-width: 1200px) {
+    .hidden-low-pc{
+        display: none !important;
+    }
+
     .intro-skin{
         margin-top: 16px;
+    }
+
+    .about-card-content-decs{
+        font-size: 15px !important;
+        line-height: 18px !important;
     }
 }
 
@@ -30,7 +44,10 @@
         display: none !important;
     }
 
-    
+    .about-card-content-decs{
+        font-size: 15px !important;
+        line-height: 15px !important;
+    }
 }
 
 /* Mobile & Tablet */
@@ -96,14 +113,15 @@
                 height: unset;
             }
         }
+        .about-title{
+            margin-bottom: 0;
+        }
         
         .about{
-            .about-title{
-                margin-bottom: 10px;
-            }
 
             .about-card-content-decs{
                 font-size: 15px;
+                line-height: 18px !important;
             }
         }
 
@@ -132,6 +150,11 @@
             .container .row{
                 flex-direction: column-reverse;
             }
+
+            .card-robot-content-wrapper{
+                transition: all 0.5s ease-in-out;
+                transform: translateY(15%);
+            }
         }
 
         .tokenomic{
@@ -159,18 +182,23 @@
             }
 
             .roadmap-section{
-                padding: 0 40px;
+                padding: 0 40px 0 70px;
                 padding-bottom: 30px;
             }
         }
 
         .team{
-            padding-bottom: 50px;
+            padding: 50px 0 80px;
         }
 
-        .partner-logo{
-            min-height: 110px;
+        .partner{
+            padding: 50px 0 100px;
+            
+            .partner-logo{
+                min-height: 110px;
+            }
         }
+
         .footer{
 
             .container {
@@ -213,6 +241,11 @@
             .footer-text{
                 font-size: 35px;
                 margin-left: 10px;
+            }
+
+            .footer-img .fire-wrapper--left {
+                bottom: 10%;
+                left: 40%;
             }
         }
 

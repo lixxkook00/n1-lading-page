@@ -290,6 +290,16 @@ $jumpdots-loader-time: 3s;
   }
 }
 
+@keyframes roadmap-icon {
+  0% { 
+    filter: drop-shadow(0 0 1px #fff);
+  }
+  
+  100% { 
+    filter: drop-shadow(0 0 12px #1A69B5);
+  }
+}
+
 @keyframes knife-glow {
   0% { 
     filter: drop-shadow(0 0 2px #E9C124);
@@ -327,5 +337,41 @@ $jumpdots-loader-time: 3s;
   
   100% { 
     transform: translateY(-3px) rotate(-3.3deg);
+  }
+}
+
+@keyframes fire-fly{
+  0% { 
+    transform: scale(.2) rotate(180deg);
+  }
+  
+  100% { 
+    transform: scale(.4) rotate(180deg);
+  }
+}
+
+@keyframes stading-glow{
+  0% { 
+    box-shadow:
+      inset 0 0 5px #fff,
+      inset 2px 0 8px #f0f,
+      inset -2px 0 8px #0ff,
+      inset 2px 0 10px #f0f,
+      inset -2px 0 10px #0ff,
+      0 0 5px #fff,
+      -1px 0 8px #f0f,
+      1px 0 8px #0ff;
+  }
+  
+  100% { 
+    box-shadow:
+        inset 0 0 5px #fff,
+        inset 2px 0 8px #0ff,
+        inset -2px 0 8px #f0f,
+        inset 2px 0 10px #0ff,
+        inset -2px 0 10px #f0f,
+        0 0 5px #fff,
+        -1px 0 8px #0ff,
+        1px 0 8px #f0f;
   }
 }

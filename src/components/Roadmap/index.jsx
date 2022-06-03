@@ -32,6 +32,11 @@ export default function Roadmap() {
                                         <div className="roadmap-li-doc"></div>Stack NFT.
                                     </div>
                                 </div>
+
+                                <div className="roadmap-icon-mobile hide-on-pc">
+                                    <img className="img-height roadmap-icon-mobile-img roadmap-icon-mobile-img--1" src="./images/moibile.png" alt="" />
+                                    <img className="img-height roadmap-icon-mobile-img roadmap-icon-mobile-img--2" src="./images/moibile 2.png" alt="" />
+                                </div>
                             </div>
                         </div>
 
@@ -58,6 +63,11 @@ export default function Roadmap() {
                                         <div className="roadmap-li-doc"></div>Open Marketplace
                                     </div>
                                 </div>
+
+                                <div className="roadmap-icon-mobile hide-on-pc">
+                                    <img className="img-height roadmap-icon-mobile-img roadmap-icon-mobile-img--1" src="./images/moibile.png" alt="" />
+                                    <img className="img-height roadmap-icon-mobile-img roadmap-icon-mobile-img--2" src="./images/moibile 2.png" alt="" />
+                                </div>
                             </div>
                         </div>
 
@@ -77,6 +87,11 @@ export default function Roadmap() {
                                     <div className="roadmap-li">
                                         <div className="roadmap-li-doc"></div>Create an ecosystem for NFT
                                     </div>
+                                </div>
+
+                                <div className="roadmap-icon-mobile hide-on-pc">
+                                    <img className="img-height roadmap-icon-mobile-img roadmap-icon-mobile-img--1" src="./images/moibile.png" alt="" />
+                                    <img className="img-height roadmap-icon-mobile-img roadmap-icon-mobile-img--2" src="./images/moibile 2.png" alt="" />
                                 </div>
                             </div>
                         </div>

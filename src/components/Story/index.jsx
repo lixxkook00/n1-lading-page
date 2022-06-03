@@ -33,25 +33,25 @@ export default function Story() {
                         {/* START */}
                         <div className="night">
                             <div className="shooting_star"></div>
+                            <div className="shooting_star hidden-m"></div>
+                            <div className="shooting_star hidden-m"></div>
                             <div className="shooting_star"></div>
-                            <div className="shooting_star"></div>
-                            <div className="shooting_star"></div>
-                            <div className="shooting_star"></div>
-                            <div className="shooting_star"></div>
-                            <div className="shooting_star"></div>
-                            <div className="shooting_star"></div>
-                            <div className="shooting_star"></div>
-                            <div className="shooting_star"></div>
-                            <div className="shooting_star"></div>
-                            <div className="shooting_star"></div>
-                            <div className="shooting_star"></div>
-                            <div className="shooting_star"></div>
-                            <div className="shooting_star"></div>
-                            <div className="shooting_star"></div>
-                            <div className="shooting_star"></div>
-                            <div className="shooting_star"></div>
-                            <div className="shooting_star"></div>
-                            <div className="shooting_star"></div>
+                            <div className="shooting_star hidden-m"></div>
+                            <div className="shooting_star hidden-m"></div>
+                            <div className="shooting_star hidden-m"></div>
+                            <div className="shooting_star hidden-m"></div>
+                            <div className="shooting_star "></div>
+                            <div className="shooting_star hidden-m"></div>
+                            <div className="shooting_star hidden-m"></div>
+                            <div className="shooting_star hidden-m"></div>
+                            <div className="shooting_star hidden-m"></div>
+                            <div className="shooting_star hidden-m"></div>
+                            <div className="shooting_star hidden-m"></div>
+                            <div className="shooting_star hidden-m"></div>
+                            <div className="shooting_star "></div>
+                            <div className="shooting_star hidden-m"></div>
+                            <div className="shooting_star hidden-m"></div>
+                            <div className="shooting_star hidden-m"></div>
                         </div>
                     </div>
                 </div>

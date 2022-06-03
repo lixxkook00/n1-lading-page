@@ -53,6 +53,23 @@
             transition: all 0.5s ease-in-out;
             animation: knife-glow 1s infinite alternate;
         }
+
+        .wrapper{
+            transition: all 0.5s ease-in-out;
+            transform: scale(0.2) rotate(180deg);
+            position: absolute;
+            animation: fire-fly 2s infinite alternate;
+        }
+
+        .fire-wrapper--left{
+            bottom: 8%;
+            left: 34%;
+        }
+
+        .fire-wrapper--right{
+            bottom: 18%;
+            right: 40%;
+        }
     }
 
     &-coming{
@@ -73,7 +90,7 @@
 
     &-infor{
         position: absolute;
-        bottom: 30px;
+        bottom: 5%;
         left: 0;
         width: 100%;
         display: flex;

@@ -3,7 +3,7 @@ import './Header.scss'
 
 export default function Header() {
   return (
-    <div className="header hidden-m-t">
+    <div className="header hidden-m-t hidden-low-pc">
         <div className="container">
             <div className="row header-wrapper">
                 <div className="col-xl-2">

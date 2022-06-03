@@ -15,6 +15,7 @@
         height: 100%;
         flex-direction: column;
         display: flex;
+        position: relative;
 
         &--1{
             justify-content: flex-end;
@@ -22,6 +23,32 @@
 
         &--2{
             justify-content: center;
+        }
+    }
+
+    &-icon-mobile{
+        position: absolute;
+        top: 4%;
+        left: 6%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+
+        &-img{
+            animation: roadmap-icon 1s infinite alternate-reverse;
+        }
+
+        &-img--1{
+            transition: all 0.5s ease-in-out;
+            transform: scale(1.3);
+            animation-delay: .7s;
+            height: 20px !important;
+        }
+
+        &-img--2{
+            animation-delay: .2s;
+            height: 18px !important;
         }
     }
 
