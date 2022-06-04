@@ -64,7 +64,7 @@ export default function Team() {
                                         CEO
                                     </div>
                                     <div className="team-card-desc">
-                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore 
+                                        Branding specialist. Passionate in creating brands, building teams, creating value-driven projects.
                                     </div>
                                 </div>
                             </div>
@@ -83,7 +83,7 @@ export default function Team() {
                                         CMO
                                     </div>
                                     <div className="team-card-desc">
-                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore 
+                                        Expert in marketing and digital strategies for 3 years. Passionate in stocks and crypto growing up.
                                     </div>
                                 </div>
                             </div>
@@ -102,7 +102,7 @@ export default function Team() {
                                         Creative Director
                                     </div>
                                     <div className="team-card-desc">
-                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore 
+                                        More than 2 years experience in trading crypto, stocks and community building.   
                                     </div>
                                 </div>
                             </div>
@@ -121,7 +121,7 @@ export default function Team() {
                                         CFO
                                     </div>
                                     <div className="team-card-desc">
-                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore 
+                                        4 years journey in system development. All started with a passion to create the difference.
                                     </div>
                                 </div>
                             </div>
