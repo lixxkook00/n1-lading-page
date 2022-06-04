@@ -26,7 +26,7 @@ export default function Roadmap() {
                                 </div>
                                 <div className="roadmap-ul">
                                     <div className="roadmap-li">
-                                        <div className="roadmap-li-doc"></div> Mint NFT genesis
+                                        <div className="roadmap-li-doc"></div> Mint NFT Genesis
                                     </div>
 
                                     <div className="roadmap-li">
@@ -34,7 +34,7 @@ export default function Roadmap() {
                                     </div>
 
                                     <div className="roadmap-li">
-                                        <div className="roadmap-li-doc"></div>Stack NFT.
+                                        <div className="roadmap-li-doc"></div>Staking NFT
                                     </div>
                                 </div>
 
