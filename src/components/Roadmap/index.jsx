@@ -26,8 +26,13 @@ export default function Roadmap() {
                                 </div>
                                 <div className="roadmap-ul">
                                     <div className="roadmap-li">
-                                        <div className="roadmap-li-doc"></div> Create NFT genesis and mint on NFT binance smart chain marketplace.
+                                        <div className="roadmap-li-doc"></div> Mint NFT genesis
                                     </div>
+
+                                    <div className="roadmap-li">
+                                        <div className="roadmap-li-doc"></div> Sell on NFT Binance
+                                    </div>
+
                                     <div className="roadmap-li">
                                         <div className="roadmap-li-doc"></div>Stack NFT.
                                     </div>
@@ -54,13 +59,13 @@ export default function Roadmap() {
                                         <div className="roadmap-li-doc"></div>Mint NFT Baby on binance Smart Chain
                                     </div>
                                     <div className="roadmap-li">
-                                        <div className="roadmap-li-doc"></div>NFT Baby is created from the breeding (breed) between 2 NFT Genesis
+                                        <div className="roadmap-li-doc"></div>NFT Baby is created from the breeding between two NFT Genesis with the fee being token A
                                     </div>
                                     <div className="roadmap-li">
                                         <div className="roadmap-li-doc"></div>The breeding limit in NFT Genesis is 18 times.
                                     </div>
                                     <div className="roadmap-li">
-                                        <div className="roadmap-li-doc"></div>Open Marketplace
+                                        <div className="roadmap-li-doc"></div>Marketplace
                                     </div>
                                 </div>
 
@@ -82,10 +87,10 @@ export default function Roadmap() {
                                 </div>
                                 <div className="roadmap-ul">
                                     <div className="roadmap-li">
-                                        <div className="roadmap-li-doc"></div>Build a Gambling Platform has special offers if you own NFT Genesis + Baby.
+                                        <div className="roadmap-li-doc"></div>Create an ecosystem for NFT
                                     </div>
                                     <div className="roadmap-li">
-                                        <div className="roadmap-li-doc"></div>Create an ecosystem for NFT
+                                        <div className="roadmap-li-doc"></div>Create a Gambling Platform
                                     </div>
                                 </div>
 
