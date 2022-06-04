@@ -23,11 +23,12 @@ export default function StoryBonus() {
                 <div className="col-xl-6 centering">
                     <div>
                         <div className="paragraph">
-                        Earth's background in 2163: natural disasters continuously occur, habitats are severely affected, life is threatened, a deadly atmosphere covers the whole planet, and the population decreases continuously, leading to the danger of extinction. 
+                            The mission of this special force during this time period is to explore the outpost, fight alien forces, and build a base on the planet Kepler 452b.
                         </div>
                         <div className="paragraph">
-                            On earth, the tiger is a species with the greatest strength, ability to hunt and fight, and is highly adaptable in the harsh jungle environment. Therefore, a special force was established with 1575 tiger warriors selected through many rigorous training, testing, and evaluation courses. They are sent to find and explore a new planet in order to assist in the evacuation of all creatures on Earth to this new location.
+                            From there, evacuate all inhabitants of the world to this planet. This special force is divided into 75 teams. Each team consists of 21 warriors, led by a Super Rare CyberTiger tiger warrior, along with 6 or 7 rare CyberTiger members and 12 to 14 normal CyberTigers.
                         </div>
+                        
                     </div>
                 </div>
 

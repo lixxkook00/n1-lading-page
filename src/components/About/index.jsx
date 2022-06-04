@@ -68,12 +68,7 @@ export default function About() {
                                 Why
                             </div>
                             <div className="about-card-content-decs">
-                                NFTs, with their special applications, are the trend 
-                                of the future. However, the application of NFTs in 
-                                practice is facing many problems in some projects. 
-                                Cybertiger has been formed with the desire to be a 
-                                multi-app, story-intensive NFT ecosystem. Owners can 
-                                use NFT within the Cybertiger ecosystem.
+                                NFTs, with their special applications, are the trend of the future. However, the application of NFTs in practice is facing many problems in some projects. Cybertiger has been formed with the desire to be a multi-app, story-intensive NFT ecosystem. 
                             </div>
                         </div>
                     </div>
@@ -93,7 +88,7 @@ export default function About() {
                                 Vision
                             </div>
                             <div className="about-card-content-decs">
-                               With a long-term vision is to build a metaverse, where the NFTs will be used as residents of that metaverse. In the short term, the project will focus on expanding the ecosystem and bringing NFT applications onto various platforms of the CyberTiger ecosystem.
+                               With a long-term vision is to build a metaverse, where the NFTs will be used as residents of that metaverse. In the short term, the project will focus on bringing NFT applications onto various platforms of the CyberTiger ecosystem.
                             </div>
                         </div>
                     </div>

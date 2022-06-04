@@ -52,69 +52,77 @@ export default function Team() {
                         className="mySwiper"
                     >
                         <SwiperSlide>
-                            <div className="team-card gradient-box-no-ani">
-                                <div className="team-card-avt">
-                                    <img className="img-width" src="./images/CEO.png" alt="" />
-                                </div>
-                                <div className="team-card-name">
-                                    Xavia
-                                </div>
-                                <div className="team-card-job">
-                                    CEO
-                                </div>
-                                <div className="team-card-desc">
-                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore 
+                            <div className="team-wrap">
+                                <div className="team-card gradient-box-no-ani">
+                                    <div className="team-card-avt">
+                                        <img className="img-width" src="./images/CEO.png" alt="" />
+                                    </div>
+                                    <div className="team-card-name">
+                                        Xavia
+                                    </div>
+                                    <div className="team-card-job">
+                                        CEO
+                                    </div>
+                                    <div className="team-card-desc">
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore 
+                                    </div>
                                 </div>
                             </div>
                         </SwiperSlide>
                         
                         <SwiperSlide>
-                            <div className="team-card gradient-box-no-ani">
-                                <div className="team-card-avt">
-                                    <img className="img-width" src="./images/CMO.png" alt="" />
-                                </div>
-                                <div className="team-card-name">
-                                    Meliora
-                                </div>
-                                <div className="team-card-job">
-                                    CMO
-                                </div>
-                                <div className="team-card-desc">
-                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore 
-                                </div>
-                            </div>
-                        </SwiperSlide>
-
-                        <SwiperSlide>
-                            <div className="team-card gradient-box-no-ani">
-                                <div className="team-card-avt">
-                                    <img className="img-width" src="./images/CREATIVE DIRECTOR.png" alt="" />
-                                </div>
-                                <div className="team-card-name">
-                                    Phoebe
-                                </div>
-                                <div className="team-card-job">
-                                    Creative Director
-                                </div>
-                                <div className="team-card-desc">
-                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore 
+                            <div className="team-wrap">
+                                <div className="team-card gradient-box-no-ani">
+                                    <div className="team-card-avt">
+                                        <img className="img-width" src="./images/CMO.png" alt="" />
+                                    </div>
+                                    <div className="team-card-name">
+                                        Meliora
+                                    </div>
+                                    <div className="team-card-job">
+                                        CMO
+                                    </div>
+                                    <div className="team-card-desc">
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore 
+                                    </div>
                                 </div>
                             </div>
                         </SwiperSlide>
 
                         <SwiperSlide>
-                            <div className="team-card gradient-box-no-ani">
-                                <div className="team-card-avt">
-                                    <img className="img-width" src="./images/CFO.png" alt="" />
+                            <div className="team-wrap">
+                                <div className="team-card gradient-box-no-ani">
+                                    <div className="team-card-avt">
+                                        <img className="img-width" src="./images/CREATIVE DIRECTOR.png" alt="" />
+                                    </div>
+                                    <div className="team-card-name">
+                                        Phoebe
+                                    </div>
+                                    <div className="team-card-job">
+                                        Creative Director
+                                    </div>
+                                    <div className="team-card-desc">
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore 
+                                    </div>
                                 </div>
-                                <div className="team-card-name">
-                                    Martha
-                                </div>
-                                <div className="team-card-job">
-                                    CFO
-                                </div>
-                                <div className="team-card-desc">
-                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore 
+                            </div>
+                        </SwiperSlide>
+
+                        <SwiperSlide>
+                            <div className="team-wrap">    
+                                <div className="team-card gradient-box-no-ani">
+                                    <div className="team-card-avt">
+                                        <img className="img-width" src="./images/CFO.png" alt="" />
+                                    </div>
+                                    <div className="team-card-name">
+                                        Martha
+                                    </div>
+                                    <div className="team-card-job">
+                                        CFO
+                                    </div>
+                                    <div className="team-card-desc">
+                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore 
+                                    </div>
                                 </div>
                             </div>
                         </SwiperSlide>

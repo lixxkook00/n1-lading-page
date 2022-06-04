@@ -1,6 +1,11 @@
 .team{
     padding: 100px 0 150px;
 
+    &-wrap{
+        transition: all 0.5s ease-in-out;
+        transform: scale(.95);
+    }
+
     &-card{
         display: flex;
         flex-direction: column;
@@ -8,6 +13,7 @@
         padding: 20px;
         border-radius: 22px;
         transition: all 0.5s ease-in-out;
+        
 
         &-name{
             margin-top: 12px;
@@ -23,5 +29,28 @@
         &-desc{
             text-align: justify;
         }
+    }
+    .swiper{
+        padding-bottom: 20px;   
+    }
+
+    .swiper-pagination{
+        display: block !important;
+        transition: all .2s ease-in-out;
+        transform: translateY(18px);
+
+        .swiper-pagination-bullet{
+            width: 20px;
+            height: 5px;
+            border-radius: 3px;
+            transition: all 1s ease-in-out;
+            background-color: #4B5E8D;
+
+            &-active{
+                width: 30px;
+                background-image: linear-gradient(90deg, #CA6AFF 10%, #1DD2FF 90%);
+            }
+        }
+
     }
 }

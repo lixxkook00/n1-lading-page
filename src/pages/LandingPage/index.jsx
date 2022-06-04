@@ -141,6 +141,16 @@ export default function LandingPage() {
         <Partners />
         <Footer />
 
+        <div 
+            className="scroll-to-top" 
+            onClick={() => {window.scrollTo({
+                top: 0,
+                left: 0,
+                behavior: "smooth"
+            })}}
+        >
+            <i className="fa-solid fa-arrow-up"></i>
+        </div>
     </div>
   )
 }
