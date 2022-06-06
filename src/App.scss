@@ -39,6 +39,12 @@
    font-weight: 200;
 }
 
+html,
+body,.App,
+.intro{
+   overflow-x: hidden;
+}
+
 .App.loading{
    height: 100vh;
    overflow: hidden;
