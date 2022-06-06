@@ -35,7 +35,7 @@ export default function Team() {
                         slidesPerGroup={1}
                         loop={true}
                         // loopFillGroupWithBlank={true}
-                        autoplay={{ delay: 3000 }}
+                        // autoplay={{ delay: 3000 }}
                         pagination={{
                             clickable: true,
                         }}

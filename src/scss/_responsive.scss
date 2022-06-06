@@ -10,12 +10,20 @@
     }
 }
 
-
-/* PC only */
-@media (min-width: 1024px) {
+/* PC real only */
+@media (min-width: 1200px) {
     .hide-on-pc {
         display: none !important;
     }
+
+}
+
+
+/* PC only */
+@media (min-width: 1024px) {
+    // .hide-on-pc {
+    //     display: none !important;
+    // }
 
 }
 
@@ -48,6 +56,148 @@
         font-size: 15px !important;
         line-height: 15px !important;
     }
+
+    .App .story-bonus .card-robot-content-wrapper{
+        transition: all 0.5s ease-in-out;
+        transform: translateY(-12%);
+    }
+
+    .App{
+        .story-bonus .card-robot-content .swiper-slide-active img {
+            transition: all 0.5s ease-in-out;
+            transform: scale(0.8);
+        }
+
+        .intro{
+            margin-top: 20px;
+
+            .container{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+
+            .container .row{
+                flex-direction: column-reverse;
+                height: unset;
+
+                .col-xl-6.centering{
+                    height: 300px;
+                    margin-bottom: 30px;
+                }
+            }
+
+            .intro-content-title{
+                font-size: 45px;
+            }
+            
+            .intro-content{
+                height: unset;
+            }
+        }
+
+        .story{
+
+            padding-bottom: 40px;
+
+            .story-left{
+                margin-bottom: 70px;
+            }
+
+            .story-planet{
+                margin: auto;
+            }
+
+            .story-left .rock--1{
+                left: 4%;
+            }
+
+            .card-robot-content-wrapper{
+                transform: translateY(21%);
+            }
+
+            .story-title{
+                padding-top: 50px;
+            }
+        }
+
+        .roadmap{
+            height: unset;
+            padding-bottom: 50px;
+
+            background: url(../../public/images/UP.png) bottom center no-repeat, url(../../public/images/story-bonus-left.png) left top no-repeat;
+
+            .roadmap-icon-mobile{
+                left: 4%;
+            }
+
+            .roadmap-end{
+                display: none;
+            }
+
+            .roadmap-content{
+                height: unset;
+            }
+
+            .roadmap-section{
+                padding: 0 40px 0 70px;
+                padding-bottom: 30px;
+            }
+        }
+
+         .footer{
+
+            .container {
+                align-items: flex-start;
+            }
+
+            .footer-img{
+                padding: 0 60px;
+                height: 450px;
+                transition: all 0.5s ease-in-out;
+                transform: translateY(40px);
+                margin-bottom: 40px;
+            }
+
+            .footer-img .wing-left{
+                left: 24%;
+            }
+
+            .footer-img .wing-right{
+                right: 26%;
+            }
+
+            .footer-coming{
+                align-items: center;
+                margin-bottom: 20px;
+                height: 100px;
+
+                .footer-logo{
+                    height: 100%;
+                    width: 30%;
+                    display: flex;
+                    justify-content: center;
+                }
+
+                img{
+                    height: 100% !important;
+                    width: auto !important;
+                }
+            }
+
+            .footer-text{
+                font-size: 35px;
+                margin-left: 10px;
+            }
+
+            .footer-img .fire-wrapper--left {
+                bottom: 10%;
+                left: 40%;
+            }
+        }
+    }
+
+    
 }
 
 /* Mobile & Tablet */
@@ -70,7 +220,7 @@
     .App{
 
         .primary-title{
-            font-size: 45px;
+            font-size: 40px;
             text-align: center;
         }
 
