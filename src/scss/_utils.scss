@@ -18,6 +18,10 @@ a{
   }
 }
 
+a:not([href]):not([tabindex]){
+  color: #fff;
+}
+
 // custom class inline
 
 .margin-auto{

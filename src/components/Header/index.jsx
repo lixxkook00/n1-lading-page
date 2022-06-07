@@ -7,7 +7,7 @@ export default function Header() {
         <div className="container">
             <div className="row header-wrapper">
                 <div className="col-xl-2">
-                    <a href="https://www.google.com/" className="header-logo">
+                    <a href="/" className="header-logo">
                         <img src="./images/logo.png" alt="" />
                     </a>
                 </div>
@@ -25,6 +25,9 @@ export default function Header() {
                         <div className="header-nav-item">
                             Shop
                         </div>
+                        <a href="https://n1-marketplace.vercel.app/" className="header-nav-item">
+                            Marketplace
+                        </a>
                     </div>
                 </div>
                 <div className="col-xl-2">
