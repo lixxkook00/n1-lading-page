@@ -74,20 +74,20 @@ export default function LandingPage() {
             </div>
 
             <div className="tempty-title">
-                <a href="/" className="nav-item">
+                <a href="https://n1-marketplace.vercel.app/" className="nav-item">
                     <div className="nav-item-name nav-item-name--primary">
                         Shop
                     </div>
                 </a>
             </div>
 
-            <div className="tempty-title">
+            {/* <div className="tempty-title">
                 <a href="https://n1-marketplace.vercel.app/" className="nav-item">
                     <div className="nav-item-name nav-item-name--primary">
                         Marketplace
                     </div>
                 </a>
-            </div>
+            </div> */}
 
             <div className="tempty-title">
                 <a href="/" className="nav-item">

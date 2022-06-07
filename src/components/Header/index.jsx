@@ -22,12 +22,12 @@ export default function Header() {
                         <div className="header-nav-item">
                             Whitepaper
                         </div>
-                        <div className="header-nav-item">
+                        <a hre="https://n1-marketplace.vercel.app/" className="header-nav-item">
                             Shop
-                        </div>
-                        <a href="https://n1-marketplace.vercel.app/" className="header-nav-item">
-                            Marketplace
                         </a>
+                        {/* <a href="https://n1-marketplace.vercel.app/" className="header-nav-item">
+                            Marketplace
+                        </a> */}
                     </div>
                 </div>
                 <div className="col-xl-2">
