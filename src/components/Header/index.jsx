@@ -1,7 +1,15 @@
-import React from 'react'
+import React, {useEffect, useState} from 'react'
+import { useAccountContext } from '../../context/accountContext'
+
 import './Header.scss'
 
 export default function Header() {
+    const {account} = useAccountContext();
+    let shortAccount = null
+    if(account) {
+        shortAccount = account.slice(0,6) + "..." + account.slice(-4)
+    }
+
   return (
     <div className="header centering hidden-m-t hidden-low-pc">
         <div className="container">
@@ -22,7 +30,7 @@ export default function Header() {
                         <div className="header-nav-item">
                             Whitepaper
                         </div>
-                        <a hre="https://n1-marketplace.vercel.app/" className="header-nav-item">
+                        <a href="https://n1-marketplace.vercel.app/marketplace" className="header-nav-item">
                             Shop
                         </a>
                         {/* <a href="https://n1-marketplace.vercel.app/" className="header-nav-item">
@@ -31,9 +39,15 @@ export default function Header() {
                     </div>
                 </div>
                 <div className="col-xl-2">
-                    <div className="header-wallet gradient-box">
+                    {
+                        account? ((<div className="header-wallet gradient-box">
+                            <a href="https://n1-marketplace.vercel.app">{shortAccount}</a>
+                        
+                    </div>)) :
+                        (<div className="header-wallet gradient-box">
                         Connect Wallet
-                    </div>
+                    </div>)
+                    }
                 </div>
             </div>
         </div>
