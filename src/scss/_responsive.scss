@@ -221,6 +221,17 @@
     .App .story-bonus .container .row {
         flex-direction: column-reverse;
     }
+
+    .App{
+        .about{
+
+            .about-card-content-decs{
+                padding-top: 2%;
+                font-size: 14px !important;
+                line-height: 22px !important;
+            }
+        }
+    }
 }
 
 /* Mobile Only */
