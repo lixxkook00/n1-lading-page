@@ -22,16 +22,17 @@ export async function connectWallet() {
   if (window.ethereum) {
     await window.ethereum.request({ method: "eth_requestAccounts" });
 
-    const metamaskChainId = web3.utils.toBN(window.ethereum.chainId).toNumber();
+    // const metamaskChainId = web3.utils.toBN(window.ethereum.chainId).toNumber();
 
-    if (metamaskChainId !== chainId) {
-      alert(`Wrong network, select ${netWork} and try again!`);
-      window.location.reload();
-    } else {
-      if (window.ethereum && !window.ethereum.selectedAddress) {
-        window.ethereum.request({ method: "eth_requestAccounts" });
-      }
-    }
+    // if (metamaskChainId !== chainId) {
+    //   alert(`Wrong network, select ${netWork} and try again!`);
+    //   window.location.reload();
+    // }
+    // else {
+    //   if (window.ethereum && !window.ethereum.selectedAddress) {
+    //     window.ethereum.request({ method: "eth_requestAccounts" });
+    //   }
+    // }
     if (window.ethereum.selectedAddress) {
       return window.ethereum.selectedAddress;
     }
