@@ -9,7 +9,7 @@ export default function Intro() {
                 <div className="col-xl-6">
                     <div className="intro-content">
                         <div className="intro-content-title primary-gradient-text">
-                            TIGER CYBER
+                            Cyber Tiger
                         </div>
                         <div className="intro-content-button">
                             Go to Binance NFT <i className="fa-solid fa-arrow-right"></i>

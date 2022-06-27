@@ -26,7 +26,7 @@ export default function StoryBonus() {
                             The mission of this special force during this time period is to explore the outpost, fight alien forces, and build a base on the planet Kepler 452b.
                         </div>
                         <div className="paragraph">
-                            From there, evacuate all inhabitants of the world to this planet. This special force is divided into 75 teams. Each team consists of 21 warriors, led by a Super Rare CyberTiger tiger warrior, along with 6 or 7 rare CyberTiger members and 12 to 14 normal CyberTigers.
+                            From there, evacuate all inhabitants of the world to this planet. This special force is divided into 75 teams. Each team consists of 21 warriors, led by a Super Rare Cyber Tiger tiger warrior, along with 6 or 7 rare Cyber Tiger members and 12 to 14 normal Cyber Tigers.
                         </div>
                         
                     </div>

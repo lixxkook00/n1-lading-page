@@ -207,7 +207,7 @@ export default function Footer() {
                 </div>
 
                 <div className="footer-infor-text">
-                    © 2022 Tiger Cyber NFT
+                    © 2022 Cyber Tiger NFT
                 </div>
             </div>
         </div>

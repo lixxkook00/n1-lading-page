@@ -68,7 +68,7 @@ export default function About() {
                                 Why
                             </div>
                             <div className="about-card-content-decs">
-                                NFTs, with their special applications, are the trend of the future. However, the application of NFTs in practice is facing many problems in some projects. Cybertiger has been formed with the desire to be a multi-app, story-intensive NFT ecosystem. 
+                                NFTs, with their special applications, are the trend of the future. However, the application of NFTs in practice is facing many problems in some projects. Cyber Tiger has been formed with the desire to be a multi-app, story-intensive NFT ecosystem. 
                             </div>
                         </div>
                     </div>
@@ -88,7 +88,7 @@ export default function About() {
                                 Vision
                             </div>
                             <div className="about-card-content-decs">
-                               With a long-term vision is to build a metaverse, where the NFTs will be used as residents of that metaverse. In the short term, the project will focus on bringing NFT applications onto various platforms of the CyberTiger ecosystem.
+                               With a long-term vision is to build a metaverse, where the NFTs will be used as residents of that metaverse. In the short term, the project will focus on bringing NFT applications onto various platforms of the Cyber Tiger ecosystem.
                             </div>
                         </div>
                     </div>
@@ -107,7 +107,7 @@ export default function About() {
                                 Mission
                             </div>
                             <div className="about-card-content-decs">
-                                We want to create a valuable ecosystem of NFTs. There is a large community to grow together, sharing those values ​​together. With each NFT, there will be a ticket for collectors to enter the Cybertiger universe.
+                                We want to create a valuable ecosystem of NFTs. There is a large community to grow together, sharing those values ​​together. With each NFT, there will be a ticket for collectors to enter the Cyber Tiger universe.
                             </div>
                         </div>
                     </div>
@@ -125,7 +125,7 @@ export default function About() {
                                 Our Team
                             </div>
                             <div className="about-card-content-decs">
-                                Our team is a collection of blockchain engineers and artists with a passion and a desire to do something great. We decided to dedicate everything we had to being able to develop this Cybertiger project.
+                                Our team is a collection of blockchain engineers and artists with a passion and a desire to do something great. We decided to dedicate everything we had to being able to develop this Cyber Tiger project.
                             </div>
                         </div>
                     </div>
