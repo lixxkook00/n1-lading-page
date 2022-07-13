@@ -52,13 +52,13 @@ export default function Team() {
                         className="mySwiper"
                     >
                         <SwiperSlide>
-                            <div className="team-wrap">
+                            <a href="https://www.linkedin.com/in/holden-garey-443204245/" className="team-wrap">
                                 <div className="team-card gradient-box-no-ani">
                                     <div className="team-card-avt">
                                         <img className="img-width" src="./images/CEO.png" alt="" />
                                     </div>
                                     <div className="team-card-name">
-                                        Xavia
+                                        Holden Garey
                                     </div>
                                     <div className="team-card-job">
                                         CEO
@@ -67,17 +67,17 @@ export default function Team() {
                                         Branding specialist. Passionate in creating brands, building teams, creating value-driven projects.
                                     </div>
                                 </div>
-                            </div>
+                            </a>
                         </SwiperSlide>
                         
                         <SwiperSlide>
-                            <div className="team-wrap">
+                            <a href="https://www.linkedin.com/in/jasmine-fay-88b209245/" className="team-wrap">
                                 <div className="team-card gradient-box-no-ani">
                                     <div className="team-card-avt">
                                         <img className="img-width" src="./images/CMO.png" alt="" />
                                     </div>
                                     <div className="team-card-name">
-                                        Meliora
+                                        Jasmine Fay
                                     </div>
                                     <div className="team-card-job">
                                         CMO
@@ -86,36 +86,36 @@ export default function Team() {
                                         Expert in marketing and digital strategies for 3 years. Passionate in stocks and crypto growing up.
                                     </div>
                                 </div>
-                            </div>
+                            </a>
                         </SwiperSlide>
 
                         <SwiperSlide>
-                            <div className="team-wrap">
+                            <a href="https://www.linkedin.com/in/triston-david-965206245/" className="team-wrap">
                                 <div className="team-card gradient-box-no-ani">
                                     <div className="team-card-avt">
                                         <img className="img-width" src="./images/CREATIVE DIRECTOR.png" alt="" />
                                     </div>
                                     <div className="team-card-name">
-                                        Phoebe
+                                        Triston David
                                     </div>
                                     <div className="team-card-job">
-                                        Creative Director
+                                        CTO
                                     </div>
                                     <div className="team-card-desc">
                                         More than 2 years experience in trading crypto, stocks and community building.   
                                     </div>
                                 </div>
-                            </div>
+                            </a>
                         </SwiperSlide>
 
                         <SwiperSlide>
-                            <div className="team-wrap">    
+                            <a href="https://www.linkedin.com/in/lake-beaumont-aaa206245/" className="team-wrap">    
                                 <div className="team-card gradient-box-no-ani">
                                     <div className="team-card-avt">
                                         <img className="img-width" src="./images/CFO.png" alt="" />
                                     </div>
                                     <div className="team-card-name">
-                                        Martha
+                                        Lake Beaumont
                                     </div>
                                     <div className="team-card-job">
                                         CFO
@@ -124,7 +124,7 @@ export default function Team() {
                                         4 years journey in system development. All started with a passion to create the difference.
                                     </div>
                                 </div>
-                            </div>
+                            </a>
                         </SwiperSlide>
                     </Swiper>
                </div>

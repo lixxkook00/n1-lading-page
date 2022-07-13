@@ -8,6 +8,10 @@ import { getConfig } from "./Config/config";
 
 import { useAccountContext } from "../src/context/accountContext";
 
+import Router from './routers/Router'
+
+import {BrowserRouter} from 'react-router-dom'
+
 function App() {
   const { account, setCurrentAccount } = useAccountContext();
   const [loading, setLoading] = useState(true);
@@ -27,11 +31,13 @@ function App() {
   }, []);
 
   return (
-    <div className={`App ${loading && "loading"}`}>
-      {loading && <LoadingScreen />}
+    <BrowserRouter>
+      <div className={`App ${loading && "loading"}`}>
+        {loading && <LoadingScreen />}
 
-      <LandingPage />
-    </div>
+        <Router />
+      </div>
+    </BrowserRouter>
   );
 }
 

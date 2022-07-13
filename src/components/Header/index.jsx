@@ -3,6 +3,8 @@ import { useAccountContext } from '../../context/accountContext'
 
 import './Header.scss'
 
+import {Link} from 'react-router-dom'
+
 export default function Header() {
     const {account} = useAccountContext();
     let shortAccount = null
@@ -21,15 +23,15 @@ export default function Header() {
                 </div>
                 <div className="col-xl-8">
                     <div className="header-nav">
-                        <div className="header-nav-item">
+                        <Link to="/" className="header-nav-item">
                             Home
-                        </div>
-                        <div className="header-nav-item">
+                        </Link>
+                        <Link to="/galerry" className="header-nav-item">
                             Galerry
-                        </div>
-                        <div className="header-nav-item">
+                        </Link>
+                        <a href="https://whitepaper.cybertigers.io/" className="header-nav-item">
                             Whitepaper
-                        </div>
+                        </a>
                         <a href="https://n1-marketplace.vercel.app/marketplace" className="header-nav-item">
                             Shop
                         </a>

@@ -15,6 +15,7 @@
     "react": "^18.1.0",
     "react-countup": "^6.2.0",
     "react-dom": "^18.1.0",
+    "react-router-dom": "^6.3.0",
     "react-scripts": "5.0.1",
     "react-visibility-sensor": "^5.1.1",
     "sass": "^1.52.1",
@@ -28,7 +29,7 @@
     "build": "react-app-rewired build",
     "test": "react-app-rewired test",
     "eject": "react-scripts eject"
-},
+  },
   "eslintConfig": {
     "extends": [
       "react-app",

@@ -182,19 +182,19 @@ export default function Footer() {
             <div className="footer-infor">
                 <div className="footer-infor-social">
                     <div className="footer-infor-social-icon centering">
-                        <a href="">
+                        <a href="https://twitter.com/NFTCyberTigers">
                             <i className="fa-brands fa-twitter"></i>
                         </a>
                     </div>
 
                     <div className="footer-infor-social-icon centering">
-                        <a href="">
-                            <i className="fa-brands fa-discord"></i>
+                        <a href="https://t.me/NFTCyberTiger">
+                            <i className="fa-brands fa-telegram"></i>
                         </a>
                     </div>
 
                     <div className="footer-infor-social-icon centering">
-                        <a href="">
+                        <a href="https://t.me/NFTCybertigers">
                             <i className="fa-brands fa-telegram"></i>
                         </a>
                     </div>
