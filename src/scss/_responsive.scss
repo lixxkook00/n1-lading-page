@@ -222,6 +222,23 @@
         flex-direction: column-reverse;
     }
 
+    .token-contract{
+        flex-direction:column;
+        font-size: 14px;
+
+        &-item{
+            flex-direction:column;
+
+            p{
+                font-size: 12px;
+            }
+        }
+    }
+    
+    .scroll-to-top{
+        bottom: 110px !important;
+    }
+
     .App{
         .about{
 

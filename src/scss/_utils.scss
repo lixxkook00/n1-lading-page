@@ -345,6 +345,12 @@ $jumpdots-loader-time: 3s;
   width: 300px !important;
 }
 
+.icon-active{
+  color: #0aef0e !important;
+  font-size: 20px;
+  transition: all 0.2s ease;
+}
+
 // FIRE
 .fire {
     font-size: 18px;

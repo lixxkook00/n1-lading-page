@@ -1,6 +1,6 @@
 .scroll-to-top{
     position: fixed;
-    bottom: 20px;
+    bottom: 50px;
     right: 20px;
     height: 40px;
     width: 40px;
@@ -10,6 +10,7 @@
     align-items: center;
     justify-content: center;
     transition: all 0.5s ease-in-out;
+    z-index: 1000000000;
 
     i{
         color: rgba(255, 255, 255, 0.506);
@@ -26,3 +27,53 @@
         }
     }
 }
+
+.token-contract{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 8px 0;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.447);
+    color: #FFFFFF;
+    z-index: 3;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    box-shadow: 0 -1px 10px rgba(195, 14, 250, 0.683);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+
+    &-item{
+        margin-right: 20px;
+        display: flex;
+        align-items: center;
+    }
+
+    div{
+        display: flex;
+        align-items: center;
+    }
+
+    p{
+        margin-bottom: 0;
+        margin-left: 8px;
+        color: #CA6AFF;
+        font-weight: 700;
+    }
+
+    i{
+        color: #fff;
+        margin-left: 8px;
+        transition: all 0.5s ease-in-out;
+
+        &:hover{
+            cursor: pointer;
+            color: #CA6AFF;
+            transform: scale(1.2);
+        }
+    }
+}
+
