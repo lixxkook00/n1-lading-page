@@ -11,9 +11,9 @@ export default function Intro() {
                         <div className="intro-content-title primary-gradient-text">
                             Cyber Tiger
                         </div>
-                        <div className="intro-content-button">
-                            Go to Binance NFT <i className="fa-solid fa-arrow-right"></i>
-                        </div>
+                        <a href="https://marketplace.cybertigers.io/" className="intro-content-button">
+                            Go to Marketplace <i className="fa-solid fa-arrow-right"></i>
+                        </a>
                     </div>
                 </div>
                 <div className="col-xl-6 centering">
