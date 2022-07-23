@@ -32,7 +32,7 @@ export default function Header() {
                         <a href="https://whitepaper.cybertigers.io/" className="header-nav-item">
                             Whitepaper
                         </a>
-                        <a href="https://n1-marketplace.vercel.app/marketplace" className="header-nav-item">
+                        <a href="https://marketplace.cybertigers.io/" className="header-nav-item">
                             Shop
                         </a>
                         {/* <a href="https://n1-marketplace.vercel.app/" className="header-nav-item">
@@ -43,7 +43,7 @@ export default function Header() {
                 <div className="col-xl-2">
                     {
                         account? ((<div className="header-wallet gradient-box">
-                            <a href="https://n1-marketplace.vercel.app">{shortAccount}</a>
+                            <a href="https://marketplace.cybertigers.io/">{shortAccount}</a>
                         
                     </div>)) :
                         (<div className="header-wallet gradient-box">

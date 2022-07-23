@@ -62,7 +62,7 @@ export default function HeaderMobile() {
             </div>
 
             <div className="tempty-title">
-                <a href="https://n1-marketplace.vercel.app/" className="nav-item">
+                <a href="https://marketplace.cybertigers.io/" className="nav-item">
                     <div className="nav-item-name nav-item-name--primary">
                         Shop
                     </div>
