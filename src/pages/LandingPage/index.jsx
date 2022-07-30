@@ -73,7 +73,7 @@ export default function LandingPage() {
         {/* REF */}
         <div className="token-contract">
           <div className="token-contract-item">
-            Cybertigers Token :
+            Meat Token :
             <div>
                 <p>{ref}</p>
                 <i className={iconCopy} onClick={() => handleCopyClipboard(1)}></i>
