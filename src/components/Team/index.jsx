@@ -52,7 +52,7 @@ export default function Team() {
                         className="mySwiper"
                     >
                         <SwiperSlide>
-                            <a href="https://www.linkedin.com/in/holden-garey-443204245/" className="team-wrap">
+                            <a href="https://www.linkedin.com/in/garey-holden-a1003b249/" target='_blank' className="team-wrap">
                                 <div className="team-card gradient-box-no-ani">
                                     <div className="team-card-avt">
                                         <img className="img-width" src="./images/CEO.png" alt="" />
@@ -71,7 +71,7 @@ export default function Team() {
                         </SwiperSlide>
                         
                         <SwiperSlide>
-                            <a href="https://www.linkedin.com/in/jasmine-fay-88b209245/" className="team-wrap">
+                            <a href="https://www.linkedin.com/in/fay-jasmine-51b93b248/" target='_blank' className="team-wrap">
                                 <div className="team-card gradient-box-no-ani">
                                     <div className="team-card-avt">
                                         <img className="img-width" src="./images/CMO.png" alt="" />
@@ -90,7 +90,7 @@ export default function Team() {
                         </SwiperSlide>
 
                         <SwiperSlide>
-                            <a href="https://www.linkedin.com/in/triston-david-965206245/" className="team-wrap">
+                            <a href="https://www.linkedin.com/in/david-triston-72603b249/" target='_blank' className="team-wrap">
                                 <div className="team-card gradient-box-no-ani">
                                     <div className="team-card-avt">
                                         <img className="img-width" src="./images/CREATIVE DIRECTOR.png" alt="" />
@@ -109,7 +109,7 @@ export default function Team() {
                         </SwiperSlide>
 
                         <SwiperSlide>
-                            <a href="https://www.linkedin.com/in/lake-beaumont-aaa206245/" className="team-wrap">    
+                            <a href="https://www.linkedin.com/in/beaumont-lake-b98b73248/" target='_blank' className="team-wrap">    
                                 <div className="team-card gradient-box-no-ani">
                                     <div className="team-card-avt">
                                         <img className="img-width" src="./images/CFO.png" alt="" />

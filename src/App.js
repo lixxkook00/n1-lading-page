@@ -16,9 +16,23 @@ function App() {
   const { account, setCurrentAccount } = useAccountContext();
   const [loading, setLoading] = useState(true);
 
-  setTimeout(() => {
-    setLoading(false);
-  }, 1500);
+  // setTimeout(() => {
+  //   setLoading(false);
+  // }, 1500);
+
+  // hande loading
+  useEffect(() => {
+    const onPageLoad = () => {
+      setLoading(false);
+    };
+
+    if (document.readyState === "complete") {
+      onPageLoad()
+    } else {
+      window.addEventListener("load", onPageLoad);
+      return () => window.removeEventListener("load", onPageLoad);
+    }
+  }, []);
 
   useEffect(() => {
     getConfig();
