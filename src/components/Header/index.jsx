@@ -29,6 +29,9 @@ export default function Header() {
                         <Link to="/galerry" className="header-nav-item">
                             Galerry
                         </Link>
+                        <a href="https://spin.cybertigers.io/" className="header-nav-item">
+                            Lucky Wheel
+                        </a>
                         <a href="https://whitepaper.cybertigers.io/" className="header-nav-item">
                             Whitepaper
                         </a>

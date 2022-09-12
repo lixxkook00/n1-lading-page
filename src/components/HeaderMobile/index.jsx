@@ -53,6 +53,14 @@ export default function HeaderMobile() {
                 </Link>
             </div>
 
+            <div className="tempty-title" >
+                <a href="https://spin.cybertigers.io/" className="nav-item">
+                    <div className="nav-item-name" >
+                        Lucky Wheel
+                    </div>
+                </a>
+            </div>
+
              <div className="tempty-title" >
                 <a href="https://whitepaper.cybertigers.io/" className="nav-item">
                     <div className="nav-item-name" >
@@ -68,14 +76,6 @@ export default function HeaderMobile() {
                     </div>
                 </a>
             </div>
-
-            {/* <div className="tempty-title">
-                <a href="https://n1-marketplace.vercel.app/" className="nav-item">
-                    <div className="nav-item-name nav-item-name--primary">
-                        Marketplace
-                    </div>
-                </a>
-            </div> */}
 
             <div className="tempty-title">
                 <a href="/" className="nav-item">
