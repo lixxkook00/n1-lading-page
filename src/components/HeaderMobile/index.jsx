@@ -78,6 +78,14 @@ export default function HeaderMobile() {
             </div>
 
             <div className="tempty-title">
+                <a href="https://female.cybertigers.io/" className="nav-item">
+                    <div className="nav-item-name nav-item-name--primary">
+                        Female Tiger
+                    </div>
+                </a>
+            </div>
+
+            <div className="tempty-title">
                 <a href="/" className="nav-item">
                     <div className="nav-item-name nav-item-name--primary">
                         Wallet Connect

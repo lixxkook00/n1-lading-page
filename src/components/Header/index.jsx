@@ -32,6 +32,9 @@ export default function Header() {
                         <a href="https://spin.cybertigers.io/" className="header-nav-item">
                             Lucky Wheel
                         </a>
+                        <a href="https://female.cybertigers.io/" className="header-nav-item">
+                            Female Tiger
+                        </a>
                         <a href="https://whitepaper.cybertigers.io/" className="header-nav-item">
                             Whitepaper
                         </a>
